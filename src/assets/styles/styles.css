@@ -1,0 +1,76 @@
+.w-90 {
+  width: 95%;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.py-auto {
+  padding-top: auto;
+  padding-bottom: auto;
+}
+
+.px-auto {
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.p-auto {
+  padding: auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-gap-2 {
+  gap: 3rem;
+}
+
+.content-center {
+  align-items: start;
+  justify-items: center;
+  align-self: center;
+  justify-self: center;
+}
+
+.content-right {
+  align-items: start;
+  justify-items: center;
+  align-self: center;
+  justify-self: end;
+}
+
+.content-left {
+  align-items: start;
+  justify-items: center;
+  align-self: center;
+  justify-self: start;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}/*# sourceMappingURL=styles.css.map */

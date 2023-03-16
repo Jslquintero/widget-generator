@@ -1,0 +1,90 @@
+@import 'variables';
+@import 'general';
+
+
+//Seccion width
+.w-90{
+    width: 95%;
+}
+
+//Seccion margenes
+.my-auto{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+//Seccion padding
+
+.py-auto{
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+.px-auto{
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.p-auto{
+    padding: auto;
+}
+
+
+//Seccion displays
+.grid{
+    display: grid;
+}
+
+.grid-cols-3{
+    grid-template-columns: repeat(2,1fr);
+}
+
+//Seccion distancia entre elementos
+
+.grid-gap-2{
+    gap: 3rem;
+}
+
+//Seccion contentido
+.content-center{
+    align-items: start;
+    justify-items: center;
+    align-self: center;
+    justify-self: center;
+}
+
+.content-right{
+    align-items: start;
+    justify-items: center;
+    align-self: center;
+    justify-self: end;
+}
+
+.content-left{
+    align-items: start;
+    justify-items: center;
+    align-self: center;
+    justify-self: start;
+}
+
+//Seccion texto
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
